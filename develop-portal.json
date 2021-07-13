@@ -1,0 +1,733 @@
+{
+    "source": "mockoon:1.14.1",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 15,
+                "name": "Develop Portal",
+                "endpointPrefix": "api/v1/pam",
+                "latency": 0,
+                "port": 8501,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "service-profile",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [\n    {\n      \"partnerId\": \"963809917718806\",\n      \"appName\": \"963809917718806jZokBg\",\n      \"displayName\": \"test\",\n      \"displayDescription\": \"test description\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": 7200,\n      \"serviceId\": \"672921\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-06-01 13:59:13\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-06-01 13:59:13\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"935449627395788\",\n      \"appName\": \"935449627395788SgMQM5\",\n      \"displayName\": \"spectum\",\n      \"displayDescription\": null,\n      \"platformName\": \"backend\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": null,\n      \"accessTokenTime\": 3600,\n      \"serviceId\": \"690286\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-06-01 13:51:29\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-06-01 13:51:29\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"963809917718809\",\n      \"appName\": \"963809917718809kKXFeS\",\n      \"displayName\": \"WMTWT7\",\n      \"displayDescription\": \"test description\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": 7200,\n      \"serviceId\": \"686020\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-06-01 09:34:29\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-06-01 09:34:29\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"963809917718809\",\n      \"appName\": \"963809917718809PBLt73\",\n      \"displayName\": \"WMTWT3\",\n      \"displayDescription\": \"test description\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": 7200,\n      \"serviceId\": \"620174\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-31 19:38:06\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-31 19:38:06\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"963809917718809\",\n      \"appName\": \"963809917718809BoH32e\",\n      \"displayName\": \"test\",\n      \"displayDescription\": \"test\",\n      \"platformName\": \"backend\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": null,\n      \"accessTokenTime\": 3600,\n      \"serviceId\": \"697104\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-28 18:19:10\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 18:19:10\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"963809917718802\",\n      \"appName\": \"963809917718802iLO6NA\",\n      \"displayName\": \"ac5\",\n      \"displayDescription\": \"ac8\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"inactive\",\n      \"listOfApi\": [\n        \"test/dummy:22222\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": \"9200\",\n      \"serviceId\": \"614546\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-24 14:52:42\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 16:45:13\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"915301585519804\",\n      \"platformName\": \"browser\",\n      \"appName\": \"932644850126902Hhjz5r\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": \"20\",\n      \"serviceId\": \"687829\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-04-08 15:18:09\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 15:23:13\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null,\n      \"displayName\": \"mrfermz\",\n      \"displayDescription\": \"aaaaaaaaaaa\"\n    },\n    {\n      \"partnerId\": \"963809917718807\",\n      \"appName\": \"963809917718807c24VLJ\",\n      \"displayName\": \"WMTWT3\",\n      \"displayDescription\": \"test description\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": 7200,\n      \"serviceId\": \"611255\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-28 13:19:42\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 13:19:42\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"932644850126981\",\n      \"appName\": \"932644850126981MFOvOo\",\n      \"displayName\": \"yo u\",\n      \"displayDescription\": \"test description\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"active\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\",\n        \"https://www.google.co.th\"\n      ],\n      \"accessTokenTime\": 7200,\n      \"serviceId\": \"668875\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-28 11:32:24\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 11:32:24\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    },\n    {\n      \"partnerId\": \"963809917718807\",\n      \"appName\": \"9638099177188071sZBCw\",\n      \"displayName\": \"183\",\n      \"displayDescription\": \"183\",\n      \"platformName\": \"browser\",\n      \"appVersion\": \"1.0.0\",\n      \"appState\": \"inactive\",\n      \"listOfApi\": [\n        \"test/dummy:11111\"\n      ],\n      \"listOfRedirectUrl\": [\n        \"https://www.ais.co.th\"\n      ],\n      \"accessTokenTime\": 3600,\n      \"serviceId\": \"621902\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\",\n      \"createdDate\": \"2021-05-28 10:35:20\",\n      \"createdBy\": \"admin\",\n      \"updatedDate\": \"2021-05-28 10:35:20\",\n      \"updatedBy\": \"admin\",\n      \"deletedDate\": null,\n      \"deletedBy\": null\n    }\n  ],\n  \"rowCount\": 28\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "service-profile/partnerId/:partnerId/appName/:appName",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [\n    {\n      \"appName\": \"900000000000457A3zxPY\",\n      \"appVersion\": \"1.0.0\",\n      \"displayName\": \"Rox009\",\n      \"displayDescription\": \"Test Create Rox\",\n      \"platform\": {\n        \"browser\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00000\"\n          ],\n          \"listOfRedirectUrl\": [\n            \"https://www.ais.co.th\",\n            \"https://www.google.co.th\"\n          ],\n          \"rule\": \"ew0KICAgICJwb2xpY3kiOiB7DQogICAgICAgICJ0ZW1wbGF0ZV9mb3JtIjogInNpbmd1bGFyaXR5IiwNCiAgICAgICAgInNzbyI6IHRydWUsDQogICAgICAgICJpZGVudGl0eSI6IHsNCiAgICAgICAgICAgICJjcmVkZW50aWFsX2xldmVsIjogIjIiLA0KICAgICAgICAgICAgImlkcF9ncm91cCI6ICJmZmZmIg0KICAgICAgICB9LA0KICAgICAgICAiaHR0cHNfaGVhZGVyIjp7DQogICAgICAgICAgICAieF9mcmFtZV9vcHRpb25zIjoiQUxMT1ctRlJPTSBodHRwczovL3d3dy5haXMuY28udGgvIg0KICAgICAgICB9LA0KICAgICAgICAiY2hhbm5lbHMiOiBbDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgICAgImVtYWlsX3Bhc3N3b3JkIjogew0KICAgICAgICAgICAgICAgICAgICAiaGFuZGxlX3JlZGlyZWN0X2J5X3RlbXBsYXRlIjogdHJ1ZSwNCiAgICAgICAgICAgICAgICAgICAgImFjdGl2YXRpb25fbGlua19ob3N0IjogImh0dHBzOi8vYXBpc2dsLmFpcy5jby50aC9hdXRoLyIsDQogICAgICAgICAgICAgICAgICAgICJhY3RpdmF0aW9uX3R5cGUiOiJlbWFpbF9vdHAiLA0KICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl9kYXRhIjp7DQogICAgICAgICAgICAgICAgICAgICAgICAiZW1haWxfbGluayI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl91cmwiOiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImlvdCI6ICJodHRwczovL2lvdC1hdXRodjMuYWlzLmNvLnRoL2F1dGgvIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicHJvZHVjdGlvbiI6ICJodHRwczovL2FwaXNnbC5haXMuY28udGgvYXV0aC8iDQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIH0sDQogICAgICAgICAgICAgICAgICAgICJlbWFpbF9vdHAiOnsNCiAgICAgICAgICAgICAgICAgICAgICAgICJzZXJ2aWNlIjoiQUlTUGxheSIsDQogICAgICAgICAgICAgICAgICAgICAgICAiYWNjb3VudF90eXBlIjoiYWxsIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJvdHBfbGlmZXRpbWUiOiI1Ig0KICAgICAgICAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgICAgICAgICAidGVtcGxhdGVfaWRfdG9rZW5faW5mbyI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJmaXJzdG5hbWUiOiAic3Vic2NyaWJlclByb2ZpbGUuZ2l2ZW5OYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJsYXN0bmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5zdXJuYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJ1c2VybmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5wZlVzZXJuYW1lIg0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgXQ0KfQ0KfQ==\",\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"serviceId\": \"660264\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9LoU=\",\n          \"clientSecret\": \"asjd9188882801\"\n        },\n        \"backend\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00001\"\n          ],\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n          \"clientSecret\": \"asjd9188882800\"\n        }\n      }\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [\n    {\n      \"appName\": \"900000000000457A3zxPY\",\n      \"appVersion\": \"1.0.0\",\n      \"displayName\": \"Rox009\",\n      \"displayDescription\": \"Test Create Rox\",\n      \"platform\": {\n        \"backend\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00001\"\n          ],\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n          \"clientSecret\": \"asjd9188882800\"\n        }\n      }\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "backend",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [\n    {\n      \"appName\": \"900000000000457A3zxPY\",\n      \"appVersion\": \"1.0.0\",\n      \"displayName\": \"Rox009\",\n      \"displayDescription\": \"Test Create Rox\",\n      \"platform\": {\n        \"browser\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00000\"\n          ],\n          \"listOfRedirectUrl\": [\n            \"https://www.ais.co.th\",\n            \"https://www.google.co.th\"\n          ],\n          \"rule\": \"ew0KICAgICJwb2xpY3kiOiB7DQogICAgICAgICJ0ZW1wbGF0ZV9mb3JtIjogInNpbmd1bGFyaXR5IiwNCiAgICAgICAgInNzbyI6IHRydWUsDQogICAgICAgICJpZGVudGl0eSI6IHsNCiAgICAgICAgICAgICJjcmVkZW50aWFsX2xldmVsIjogIjIiLA0KICAgICAgICAgICAgImlkcF9ncm91cCI6ICJmZmZmIg0KICAgICAgICB9LA0KICAgICAgICAiaHR0cHNfaGVhZGVyIjp7DQogICAgICAgICAgICAieF9mcmFtZV9vcHRpb25zIjoiQUxMT1ctRlJPTSBodHRwczovL3d3dy5haXMuY28udGgvIg0KICAgICAgICB9LA0KICAgICAgICAiY2hhbm5lbHMiOiBbDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgICAgImVtYWlsX3Bhc3N3b3JkIjogew0KICAgICAgICAgICAgICAgICAgICAiaGFuZGxlX3JlZGlyZWN0X2J5X3RlbXBsYXRlIjogdHJ1ZSwNCiAgICAgICAgICAgICAgICAgICAgImFjdGl2YXRpb25fbGlua19ob3N0IjogImh0dHBzOi8vYXBpc2dsLmFpcy5jby50aC9hdXRoLyIsDQogICAgICAgICAgICAgICAgICAgICJhY3RpdmF0aW9uX3R5cGUiOiJlbWFpbF9vdHAiLA0KICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl9kYXRhIjp7DQogICAgICAgICAgICAgICAgICAgICAgICAiZW1haWxfbGluayI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl91cmwiOiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImlvdCI6ICJodHRwczovL2lvdC1hdXRodjMuYWlzLmNvLnRoL2F1dGgvIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicHJvZHVjdGlvbiI6ICJodHRwczovL2FwaXNnbC5haXMuY28udGgvYXV0aC8iDQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIH0sDQogICAgICAgICAgICAgICAgICAgICJlbWFpbF9vdHAiOnsNCiAgICAgICAgICAgICAgICAgICAgICAgICJzZXJ2aWNlIjoiQUlTUGxheSIsDQogICAgICAgICAgICAgICAgICAgICAgICAiYWNjb3VudF90eXBlIjoiYWxsIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJvdHBfbGlmZXRpbWUiOiI1Ig0KICAgICAgICAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgICAgICAgICAidGVtcGxhdGVfaWRfdG9rZW5faW5mbyI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJmaXJzdG5hbWUiOiAic3Vic2NyaWJlclByb2ZpbGUuZ2l2ZW5OYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJsYXN0bmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5zdXJuYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJ1c2VybmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5wZlVzZXJuYW1lIg0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgXQ0KfQ0KfQ==\",\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"serviceId\": \"660264\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9LoU=\",\n          \"clientSecret\": \"asjd9188882801\"\n        }\n      }\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "browser",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [\n    {\n      \"appName\": \"900000000000457A3zxPY\",\n      \"appVersion\": \"1.0.0\",\n      \"displayName\": \"Rox009\",\n      \"displayDescription\": \"Test Create Rox\"\n      \"platform\": {\n        \"browser\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00000\"\n          ],\n          \"listOfRedirectUrl\": [\n            \"https://www.ais.co.th\",\n            \"https://www.google.co.th\"\n          ],\n          \"rule\": \"ew0KICAgICJwb2xpY3kiOiB7DQogICAgICAgICJ0ZW1wbGF0ZV9mb3JtIjogInNpbmd1bGFyaXR5IiwNCiAgICAgICAgInNzbyI6IHRydWUsDQogICAgICAgICJpZGVudGl0eSI6IHsNCiAgICAgICAgICAgICJjcmVkZW50aWFsX2xldmVsIjogIjIiLA0KICAgICAgICAgICAgImlkcF9ncm91cCI6ICJmZmZmIg0KICAgICAgICB9LA0KICAgICAgICAiaHR0cHNfaGVhZGVyIjp7DQogICAgICAgICAgICAieF9mcmFtZV9vcHRpb25zIjoiQUxMT1ctRlJPTSBodHRwczovL3d3dy5haXMuY28udGgvIg0KICAgICAgICB9LA0KICAgICAgICAiY2hhbm5lbHMiOiBbDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgICAgImVtYWlsX3Bhc3N3b3JkIjogew0KICAgICAgICAgICAgICAgICAgICAiaGFuZGxlX3JlZGlyZWN0X2J5X3RlbXBsYXRlIjogdHJ1ZSwNCiAgICAgICAgICAgICAgICAgICAgImFjdGl2YXRpb25fbGlua19ob3N0IjogImh0dHBzOi8vYXBpc2dsLmFpcy5jby50aC9hdXRoLyIsDQogICAgICAgICAgICAgICAgICAgICJhY3RpdmF0aW9uX3R5cGUiOiJlbWFpbF9vdHAiLA0KICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl9kYXRhIjp7DQogICAgICAgICAgICAgICAgICAgICAgICAiZW1haWxfbGluayI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYWN0aXZhdGlvbl91cmwiOiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImlvdCI6ICJodHRwczovL2lvdC1hdXRodjMuYWlzLmNvLnRoL2F1dGgvIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicHJvZHVjdGlvbiI6ICJodHRwczovL2FwaXNnbC5haXMuY28udGgvYXV0aC8iDQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIH0sDQogICAgICAgICAgICAgICAgICAgICJlbWFpbF9vdHAiOnsNCiAgICAgICAgICAgICAgICAgICAgICAgICJzZXJ2aWNlIjoiQUlTUGxheSIsDQogICAgICAgICAgICAgICAgICAgICAgICAiYWNjb3VudF90eXBlIjoiYWxsIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJvdHBfbGlmZXRpbWUiOiI1Ig0KICAgICAgICAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgICAgICAgICAidGVtcGxhdGVfaWRfdG9rZW5faW5mbyI6IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJmaXJzdG5hbWUiOiAic3Vic2NyaWJlclByb2ZpbGUuZ2l2ZW5OYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJsYXN0bmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5zdXJuYW1lIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJ1c2VybmFtZSI6ICJzdWJzY3JpYmVyUHJvZmlsZS5wZlVzZXJuYW1lIg0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgXQ0KfQ0KfQ==\",\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"serviceId\": \"660264\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9LoU=\",\n          \"clientSecret\": \"asjd9188882801\"\n          \n        },\n        \"backend\": {\n          \"appState\": \"active\",\n          \"listOfApi\": [\n            \"default/default:00001\"\n          ],\n          \"authCodeTime\": \"3600\",\n          \"accessTokenTime\": \"3600\",\n          \"refreshTokenTime\": \"3600\",\n          \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n          \"clientSecret\": \"asjd9188882800\"\n        }\n      }\n    }\n  ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "IOT",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "permission",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": {\n    \"guildId\": \"123456\",\n    \"memberId\": \"HavFoREWwE8\",\n    \"partnerId\": \"976420841875397\",\n    \"role\": \"owner\",\n    \"permissionInfo\": [\n      {\n        \"page\": \"application\",\n        \"permissions\": [\"read\",\"create\",\"update\",\"delete\"],\n        \"disabledFields\": [\"displayName\"],\n        \"hideColumns\": [\"displayName\"],\n        \"hideSearchParams\": [\"displayName\"]\n      },\n      {\n        \"page\": \"partner\",\n        \"permissions\": [\"read\",\"create\",\"update\",\"delete\"],\n        \"disabledFields\": [\"contactEmail\"],\n        \"hideSearchParams\": [\"tenantId\"],\n        \"hideColumns\": [\"contactEmail\"]\n      }\n    ]\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "sprint 9",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40101\",\r\n \"developerMessage\": \"PAM Permission Denied\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"50001\",\r\n \"developerMessage\": \"DB Error\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 500,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": {\n    \"guildId\": \"fb3K4rPHBnk\",\n    \"memberId\": \"6mgLoxNV9fw\",\n    \"partnerId\": \"900000000000437\",\n    \"role\": \"owner\",\n    \"permissions\": [\n      \"read\",\n      \"create\",\n      \"update\",\n      \"delete\"\n    ],\n    \"hideFields\": [\"listOfRedirectUrl\"]\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "sprint 8",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40401\",\r\n \"developerMessage\": \"Data not found\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40000\",\r\n \"developerMessage\": \"Unknown URL\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 400,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "post",
+                        "endpoint": "service-profile",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"platform\": {\n    \"backend\": {\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\"\n    },\n    \"browser\": {\n      \"serviceId\": \"660264\",\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9LoU=\",\n      \"clientSecret\": \"asjd9188882801\"\n    }\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "Unauthorized",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40301\",\n  \"developerMessage\": \"Data existed\",\n  \"message\": \"Application Name is duplicate data\"\n}",
+                                "latency": 0,
+                                "statusCode": 403,
+                                "label": "Data Exits",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": {\n    \"appName\": \"900000000000457A3zxPY\",\n    \"platformName\": \"backend\",\n    \"appVersion\": \"1.0.0\",\n    \"appState\": \"active\",\n    \"listOfApi\": [\n      \"default/default:00000\"\n    ],\n    \"authCodeTime\": \"3600\",\n    \"accessTokenTime\": \"3600\",\n    \"refreshTokenTime\": \"3600\",\n    \"rule\": \"\",\n    \"clientId\": \"JmT+xx7BuYlKK4da+PRPbMoqICaYn7uGW7ce7cIO4IGnbqv3noPBN4O75JFUgVfvs8SJsJdBsWY=\",\n    \"clientSecret\": \"3d6bceab4f4c44ffab82c34f8252612f\",\n    \"displayName\": \"Rox009\",\n    \"displayDescription\": \"Test Create Rox\"\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "IOT",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 400,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40000\",\r\n \"developerMessage\": \"Unknown URL\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 403,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "put",
+                        "endpoint": "service-profile/partnerId/:partnerId/appName/:appName",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"platform\": {\n    \"backend\": {\n      \"clientId\": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\n      \"clientSecret\": \"asjd9188882800\"\n    }\n  }\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "backend",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"20000\",\r\n \"developerMessage\": \"Success\"\r\n}\r\n",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 400,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40000\",\r\n \"developerMessage\": \"Unknown URL\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 403,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "delete",
+                        "endpoint": "service-profile/partnerId/:partnerId/appName/:appName/platformName/:platformName/appVersion/:appVersion",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"20000\",\r\n \"developerMessage\": \"Success\",\r\n \"serviceId\": \"660264\",\r\n \"clientId \": \"aZqfSPqPKgxe6CV5UEz00o5Il1xvW4hRGcH2gHh9DoU=\",\r\n \"clientSecret\": \"asjd9188882800\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{}",
+                                "latency": 0,
+                                "statusCode": 400,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"40000\",\r\n \"developerMessage\": \"Unknown URL\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 403,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "supplier-profile",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [{\n     \"partnerId\": \"932644850126987\",\n     \"partnerState\": \"active\",\n     \"partnerDigits\": \"15\",\n     \"authCodeTime\": \"3600\",\n     \"accessTokenTime\": \"3600\",\n     \"refreshTokenTime\": \"3600\",\n     \"tenantId\": 55000, \n     \"contactEmail\": \"partner@gmail.com\",\n     \"partnerFirstname\": \"Somchai\",\n     \"partnerLastname\": \"Kondee\",\n     \"relatedProfile\": {\n           \"idp\": \"pnm\",\n           \"publicId\": \"partner@gmail.com\"\n      },\n     \"createdDate\": \"2021-12-01 09:30:59\",\n     \"createdBy\": \"admin\",\n     \"updatedDate\": \"2021-12-01 09:30:59\",\n     \"updatedBy\": \"admin\",\n     \"deletedDate\": null,\n     \"deletedBy\": null\n  }],\n  \"rowCount\": 1\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "supplier-profile/:partnerId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"20000\",\n  \"developerMessage\": \"Success\",\n  \"resultData\": [{\n     \"partnerId\": \"932644850126987\",\n     \"partnerState\": \"active\",\n     \"partnerDigits\": \"15\",\n     \"authCodeTime\": \"3600\",\n     \"accessTokenTime\": \"3600\",\n     \"refreshTokenTime\": \"3600\",\n     \"tenantId\": 55000, \n     \"contactEmail\": \"partner@gmail.com\",\n     \"partnerFirstname\": \"Somchai\",\n     \"partnerLastname\": \"Kondee\",\n     \"relatedProfile\": {\n           \"idp\": \"pnm\",\n           \"publicId\": \"partner@gmail.com\"\n      },\n     \"createdDate\": \"2021-12-01 09:30:59\",\n     \"createdBy\": \"admin\",\n     \"updatedDate\": \"2021-12-01 09:30:59\",\n     \"updatedBy\": \"admin\",\n     \"deletedDate\": null,\n     \"deletedBy\": null\n  }]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "post",
+                        "endpoint": "supplier-profile",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"20000\",\r\n \"developerMessage\": \"Success\",\r\n \"partnerId\": \"932644850126987\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "put",
+                        "endpoint": "supplier-profile/:partnerId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"20000\",\r\n \"developerMessage\": \"Success\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "delete",
+                        "endpoint": "supplier-profile/:partnerId",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\r\n \"resultCode\": \"20000\",\r\n \"developerMessage\": \"Success\"\r\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40102\",\n  \"developerMessage\": \"Unauthorized User\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"resultCode\": \"40401\",\n  \"developerMessage\": \"Data Not Found\"\n}",
+                                "latency": 0,
+                                "statusCode": 404,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With,X-Sgl-Id,X-Transaction-Id,x-tid,x-role,username"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
