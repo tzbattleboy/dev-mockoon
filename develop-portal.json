@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8501/api/v1/pam"
+      "url": "http://10.1.2.145:8501/api/v1/pam"
     }
   ],
   "paths": {
